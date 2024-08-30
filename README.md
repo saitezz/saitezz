@@ -1,16 +1,11 @@
-## Hi there 👋
-
-<!--
-**saitezz/saitezzgithub.io** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<html>
+<head>
+<title>SAITEZZ_WEBSITE</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (SAITEZZ_WEBSITE.psd) -->
+<img src="images/SAITEZZ_WEBSITE.png" width="1920" height="3240" alt="">
+<!-- End Save for Web Slices -->
+</body>
+</html>

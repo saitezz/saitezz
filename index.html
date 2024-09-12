@@ -1,11 +1,111 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>saitezz.website</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            position: relative;
+        }
+        .social-icons {
+            position: absolute;
+            bottom: 50px;
+            left: 50px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 60px;
+            min-height: 100vh;
+        }
+        #home { background-color: #f5f5f5; }
+        #portfolio { background-color: #e5e5e5; }
+        #contact { background-color: #d5d5d5; }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin: 5px 0;
+            padding: 10px;
+            width: 100%;
+        }
+        button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+        }
+    </style>
 </head>
-<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-<!-- Save for Web Slices (WebDesign 2.psb) -->
-<img src="images/webmainpage.png" width="1920" height="8137" alt="">
-<!-- End Save for Web Slices -->
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Sections -->
+    <div id="home" class="container">
+        <img src="images/webmainpage-sliced.png" alt="Main Website Image" class="bg-image">
+        <div class="social-icons">
+            <a href="https://wa.me/yourwhatsapplink" target="_blank">
+                <img src="images/whatsapp-icon.png" alt="WhatsApp" width="30" height="30">
+            </a>
+            <a href="https://facebook.com/saitezz.official/" target="_blank">
+                <img src="images/facebook-icon.png" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://instagram.com/saitezzz" target="_blank">
+                <img src="images/instagram-icon.png" alt="Instagram" width="30" height="30">
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank">
+                <img src="images/twitter-icon.png" alt="Twitter" width="30" height="30">
+            </a>
+        </div>
+    </div>
+
+    <section id="portfolio">
+        <h2>Portfolio Section</h2>
+        <!-- Portfolio content here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <form action="https://formspree.io/f/yourformid" method="POST">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Write Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
 </body>
 </html>
